@@ -15,7 +15,7 @@ mlflow.set_experiment("biopay-hyperopt")
 @click.command()
 @click.option(
     "--data_path",
-    default="../../data/processed_data",
+    default="data/processed_data",
     help="Location where the biopay data was saved"
 )
 @click.option(
