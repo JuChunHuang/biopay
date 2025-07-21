@@ -12,6 +12,7 @@ mlflow = "*"
 hyperopt = "*"
 
 [dev-packages]
+setuptools = "*"
 
 [requires]
 python_version = "3.12"
