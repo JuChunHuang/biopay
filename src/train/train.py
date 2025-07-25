@@ -16,8 +16,12 @@ from sklearn.metrics import root_mean_squared_error
     default="data/processed_data",
     help="Location where the processed biopay data was saved"
 )
-
-def run_train(data_path: str):
+@click.option(
+    "--model_path",
+    default="data/models",
+    help="Location where the trained model was saved"
+)
+def run_train(data_path: str, model_path: str):
     mlflow.autolog()
 
     X_train, y_train = utils.load_pickle(os.path.join(data_path, "train.pkl"))
@@ -25,13 +29,19 @@ def run_train(data_path: str):
 
     mlflow.set_tag("developer", "Ivy")
 
-    rf = RandomForestRegressor(max_depth=10, random_state=0)
-    rf.fit(X_train, y_train)
-    y_pred = rf.predict(X_val)
+    model = RandomForestRegressor(n_estimators=23,
+                               max_depth=14,
+                               min_samples_leaf=2,
+                               min_samples_split=6,
+                               random_state=42)
+    model.fit(X_train, y_train)
+    y_pred = model.predict(X_val)
 
     rmse = root_mean_squared_error(y_val, y_pred)
     mlflow.log_metric("rmse", rmse)
-    mlflow.sklearn.log_model(rf, 'rf-model')
+    mlflow.sklearn.log_model(model, 'rf-model')
+
+    utils.save_pickle(model, os.path.join(model_path, "model.pkl"))
 
 
 if __name__ == '__main__':
