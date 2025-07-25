@@ -1,7 +1,7 @@
 import click
 import pandas as pd
 import os
-import utils
+from . import utils
 import joblib
 
 
