@@ -2,7 +2,7 @@ import pandas as pd
 import utils
 import os
 import click
-from sklearn.feature_extraction import DictVectorizer
+import joblib
 
 
 def read_data(file_path: str) -> pd.DataFrame:
@@ -146,12 +146,14 @@ def main(raw_data_path: str, dest_path: str):
     df = process_wlb(df)
     df = process_salary(df)
 
-    X_train, y_train, X_val, y_val, dv = utils.vectorize_data(df)
+    X_train, y_train, X_val, y_val, test_df, dv, scaler = utils.vectorize_data(df)
 
     os.makedirs(dest_path, exist_ok=True)
     utils.dump_pkl(dv, os.path.join(dest_path, "dv.pkl"))
     utils.dump_pkl((X_train, y_train), os.path.join(dest_path, "train.pkl"))
     utils.dump_pkl((X_val, y_val), os.path.join(dest_path, "val.pkl"))
+    test_df.to_csv(os.path.join(dest_path, "test.csv"), index=False)
+    joblib.dump(scaler, os.path.join(dest_path, "scaler.save"))
 
 
 if __name__ == "__main__":

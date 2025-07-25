@@ -14,9 +14,10 @@ def drop_counts(df: pd.DataFrame, column: str) -> pd.DataFrame:
 
 
 def split_data(df: pd.DataFrame, test_size: float=0.2, random_state: int=42):
-    train_df, val_df = train_test_split(df, test_size=test_size, random_state=random_state)
+    train_val_df, test_df = train_test_split(df, test_size=test_size, random_state=random_state)
+    train_df, val_df = train_test_split(train_val_df, test_size=test_size, random_state=random_state)
 
-    return train_df, val_df
+    return train_df, val_df, test_df
 
 
 def vectorize(df: pd.DataFrame, dv: DictVectorizer, train: bool=True):
@@ -34,13 +35,13 @@ def vectorize(df: pd.DataFrame, dv: DictVectorizer, train: bool=True):
 def vectorize_data(df: pd.DataFrame) -> tuple:
     dv = DictVectorizer()
     scaler = StandardScaler()
-    train_df, val_df = split_data(df)
+    train_df, val_df, test_df = split_data(df)
     train_df = standarize(train_df, scaler, train=True)
     val_df = standarize(val_df, scaler, train=False)
     X_train, y_train, dv = vectorize(train_df, dv, train=True)
     X_val, y_val, _ = vectorize(val_df, dv, train=False)
 
-    return X_train, y_train, X_val, y_val, dv
+    return X_train, y_train, X_val, y_val, test_df, dv, scaler
 
 
 def dump_pkl(obj, filename: str):
