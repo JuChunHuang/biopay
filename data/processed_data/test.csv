@@ -1,0 +1,131 @@
+location,industry,company_type,company_size,degree,yoe,wlb,total_compensation
+"carolinas & southeast (from nc to ar, south fl and la)",Big Pharmaceuticals,Subsidiary,200-1000,BS,0,41-50,71500.0
+"dc metro area (dc, va, md, de)",Big Pharmaceuticals,Public,5000+,MS,1,31-40,79759.0
+west coast (california & pacific northwest),Big Pharmaceuticals,Public,1000-5000,BS,5,41-50,111500.0
+"south & mountain west (tx to az, north to mt)",Contract Manufacturing Organization,Private,1-50,BS,2,41-50,57000.0
+"carolinas & southeast (from nc to ar, south fl and la)",Big Pharmaceuticals,Public,1000-5000,BS,16,41-50,212000.0
+"south & mountain west (tx to az, north to mt)",Contract Manufacturing Organization,Public,200-1000,PhD,3,31-40,107000.0
+west coast (california & pacific northwest),Biotech Equipment,Private,1000-5000,PhD,1,31-40,110000.0
+"midwest (from oh to ks, north to nd)",Contract Research Organization,Private,1000-5000,BS,7,31-40,67000.0
+"midwest (from oh to ks, north to nd)",Biotech Equipment,Start-up,1-50,Other,7,31-40,68670.0
+"pharma central (ny, nj, pa)",Industrial Biotech,Start-up,1-50,PhD,1,31-40,137500.0
+"midwest (from oh to ks, north to nd)",Industrial Biotech,Subsidiary,1-50,MS,13,31-40,93000.0
+west coast (california & pacific northwest),Industrial Biotech,Public,5000+,BS,1,41-50,121000.0
+"carolinas & southeast (from nc to ar, south fl and la)",Contract Manufacturing Organization,Subsidiary,1000-5000,BS,17,41-50,170000.0
+"pharma central (ny, nj, pa)",Big Pharmaceuticals,Public,5000+,PhD,4,41-50,194000.0
+"new england (ma, ct, ri, nh, vt, me)",Big Pharmaceuticals,Public,5000+,MS,15,41-50,237750.0
+west coast (california & pacific northwest),Big Pharmaceuticals,Subsidiary,5000+,BS,9,41-50,295000.0
+west coast (california & pacific northwest),Industrial Biotech,Start-up,1-50,PhD,5,31-40,180000.0
+west coast (california & pacific northwest),Big Pharmaceuticals,Public,5000+,BS,8,31-40,329250.0
+"pharma central (ny, nj, pa)",Big Pharmaceuticals,Public,5000+,BS,6,31-40,101200.0
+"pharma central (ny, nj, pa)",Industrial Biotech,Public,200-1000,MS,7,41-50,75000.0
+"pharma central (ny, nj, pa)",Big Pharmaceuticals,Public,1000-5000,MS,10,41-50,477000.0
+"new england (ma, ct, ri, nh, vt, me)",Industrial Biotech,Public,50-200,MS,17,41-50,234000.0
+west coast (california & pacific northwest),Medical/Health Devices,Start-up,200-1000,PhD,2,31-40,199000.0
+west coast (california & pacific northwest),Industrial Biotech,Public,200-1000,PhD,6,41-50,176800.0
+"pharma central (ny, nj, pa)",Big Pharmaceuticals,Public,5000+,PhD,0,31-40,165000.0
+"new england (ma, ct, ri, nh, vt, me)",Big Pharmaceuticals,Private,1000-5000,MS,2,31-40,92400.0
+"new england (ma, ct, ri, nh, vt, me)",Industrial Biotech,Public,50-200,MS,7,31-40,136500.0
+"midwest (from oh to ks, north to nd)",Medical/Health Devices,Start-up,50-200,PhD,5,31-40,203500.0
+"dc metro area (dc, va, md, de)",Big Pharmaceuticals,Public,200-1000,PhD,15,41-50,223000.0
+west coast (california & pacific northwest),Industrial Biotech,Private,50-200,MS,9,51-60,132500.0
+west coast (california & pacific northwest),Big Pharmaceuticals,Private,50-200,BS,8,<30,135000.0
+"new england (ma, ct, ri, nh, vt, me)",Big Pharmaceuticals,Public,5000+,PhD,8,41-50,213000.0
+"new england (ma, ct, ri, nh, vt, me)",Industrial Biotech,Public,200-1000,BS,5,31-40,101143.0
+west coast (california & pacific northwest),Industrial Biotech,Private,200-1000,BS,0,41-50,6100.0
+west coast (california & pacific northwest),Big Pharmaceuticals,Public,5000+,BS,14,<30,225000.0
+west coast (california & pacific northwest),Big Pharmaceuticals,Public,5000+,BS,11,31-40,160012.5
+"new england (ma, ct, ri, nh, vt, me)",Contract Manufacturing Organization,Private,1000-5000,PhD,9,31-40,253000.0
+west coast (california & pacific northwest),Big Pharmaceuticals,Private,1-50,MS,3,51-60,100000.0
+west coast (california & pacific northwest),Big Pharmaceuticals,Public,5000+,PhD,13,31-40,254800.0
+"new england (ma, ct, ri, nh, vt, me)",Regulatory Affairs,Public,1000-5000,PhD,0,31-40,115000.0
+west coast (california & pacific northwest),Big Pharmaceuticals,Private,1000-5000,MS,7,31-40,72000.0
+"pharma central (ny, nj, pa)",Contract Research Organization,Public,5000+,BS,18,41-50,132000.0
+"pharma central (ny, nj, pa)",Industrial Biotech,Public,200-1000,BS,2,31-40,178000.0
+"dc metro area (dc, va, md, de)",Industrial Biotech,Private,1000-5000,PhD,5,41-50,205020.0
+"new england (ma, ct, ri, nh, vt, me)",Big Pharmaceuticals,Private,50-200,BS,1,31-40,82500.0
+west coast (california & pacific northwest),Industrial Biotech,Private,200-1000,MS,15,31-40,131250.0
+"pharma central (ny, nj, pa)",Big Pharmaceuticals,Public,5000+,PhD,8,31-40,338000.0
+"new england (ma, ct, ri, nh, vt, me)",Industrial Biotech,Public,5000+,MS,15,41-50,332400.0
+west coast (california & pacific northwest),Industrial Biotech,Private,1-50,BS,2,41-50,67400.0
+"carolinas & southeast (from nc to ar, south fl and la)",Big Pharmaceuticals,Public,1000-5000,BS,15,51-60,520000.0
+"midwest (from oh to ks, north to nd)",Contract Research Organization,Private,1000-5000,MS,4,31-40,108160.0
+"new england (ma, ct, ri, nh, vt, me)",Industrial Biotech,Private,50-200,PhD,3,31-40,160500.0
+"midwest (from oh to ks, north to nd)",Industrial Biotech,Start-up,1-50,PhD,1,31-40,94000.0
+"new england (ma, ct, ri, nh, vt, me)",Industrial Biotech,Public,50-200,PhD,8,41-50,234000.0
+"south & mountain west (tx to az, north to mt)",Industrial Biotech,Private,5000+,BS,1,41-50,87500.0
+"south & mountain west (tx to az, north to mt)",Contract Research Organization,Private,50-200,MS,5,41-50,68203.0
+west coast (california & pacific northwest),Regulatory Affairs,Public,1000-5000,BS,17,41-50,311000.0
+"pharma central (ny, nj, pa)",Big Pharmaceuticals,Private,5000+,PhD,7,31-40,211000.0
+west coast (california & pacific northwest),Big Pharmaceuticals,Private,1000-5000,PhD,7,41-50,207500.0
+west coast (california & pacific northwest),Big Pharmaceuticals,Public,5000+,PhD,9,31-40,386020.0
+"new england (ma, ct, ri, nh, vt, me)",Biotech Equipment,Public,1000-5000,PhD,4,31-40,151000.0
+"new england (ma, ct, ri, nh, vt, me)",Big Pharmaceuticals,Public,5000+,PhD,4,31-40,143800.0
+"pharma central (ny, nj, pa)",Big Pharmaceuticals,Private,5000+,PhD,11,31-40,373000.0
+"south & mountain west (tx to az, north to mt)",Contract Manufacturing Organization,Private,1-50,BS,6,41-50,138500.0
+"dc metro area (dc, va, md, de)",Industrial Biotech,Public,200-1000,BS,17,31-40,120920.0
+west coast (california & pacific northwest),Industrial Biotech,Start-up,50-200,PhD,7,41-50,185000.0
+west coast (california & pacific northwest),Industrial Biotech,Start-up,1-50,BS,3,31-40,110000.0
+west coast (california & pacific northwest),Industrial Biotech,Private,1-50,PhD,1,41-50,260000.0
+"pharma central (ny, nj, pa)",Big Pharmaceuticals,Public,5000+,BS,3,31-40,109156.0
+"midwest (from oh to ks, north to nd)",Industrial Biotech,Private,50-200,PhD,1,31-40,101250.0
+"midwest (from oh to ks, north to nd)",Contract Research Organization,Private,50-200,MS,2,31-40,110000.0
+"new england (ma, ct, ri, nh, vt, me)",Big Pharmaceuticals,Public,5000+,MS,5,31-40,188000.0
+"new england (ma, ct, ri, nh, vt, me)",Big Pharmaceuticals,Public,5000+,PhD,15,>60,350000.0
+west coast (california & pacific northwest),Big Pharmaceuticals,Public,5000+,PhD,3,31-40,223300.0
+"carolinas & southeast (from nc to ar, south fl and la)",Big Pharmaceuticals,Private,1000-5000,PhD,8,41-50,173000.0
+"pharma central (ny, nj, pa)",Academia/Research/Institution,Academia/College/Universities,5000+,MS,10,>60,74000.0
+"dc metro area (dc, va, md, de)",Big Pharmaceuticals,Public,1000-5000,MS,12,41-50,156000.0
+west coast (california & pacific northwest),Big Pharmaceuticals,Public,200-1000,BS,3,31-40,116090.0
+"pharma central (ny, nj, pa)",Big Pharmaceuticals,Public,5000+,BS,3,41-50,113500.0
+west coast (california & pacific northwest),Big Pharmaceuticals,Public,1000-5000,BS,6,31-40,88000.0
+west coast (california & pacific northwest),Big Pharmaceuticals,Public,200-1000,MS,17,<30,481000.0
+"new england (ma, ct, ri, nh, vt, me)",Contract Manufacturing Organization,Public,5000+,Other,5,41-50,106500.0
+"carolinas & southeast (from nc to ar, south fl and la)",Biotech Equipment,Public,1-50,BS,10,51-60,122500.0
+"new england (ma, ct, ri, nh, vt, me)",Industrial Biotech,Public,200-1000,PhD,6,41-50,270000.0
+west coast (california & pacific northwest),Contract Manufacturing Organization,Public,1000-5000,MS,8,41-50,167200.0
+"new england (ma, ct, ri, nh, vt, me)",Chemical,Public,200-1000,BS,7,31-40,174000.0
+"new england (ma, ct, ri, nh, vt, me)",Industrial Biotech,Start-up,1-50,PhD,2,31-40,120000.0
+"midwest (from oh to ks, north to nd)",Big Pharmaceuticals,Public,5000+,BS,15,31-40,251120.0
+"new england (ma, ct, ri, nh, vt, me)",Big Pharmaceuticals,Public,5000+,BS,4,31-40,109500.0
+"carolinas & southeast (from nc to ar, south fl and la)",Contract Manufacturing Organization,Private,1000-5000,BS,18,31-40,159000.0
+"new england (ma, ct, ri, nh, vt, me)",Industrial Biotech,Public,1000-5000,PhD,7,41-50,339500.0
+west coast (california & pacific northwest),Industrial Biotech,Start-up,1-50,BS,2,<30,85000.0
+"new england (ma, ct, ri, nh, vt, me)",Academia/Research/Institution,Start-up,1-50,MS,5,51-60,103000.0
+"new england (ma, ct, ri, nh, vt, me)",Contract Research Organization,Public,1000-5000,BS,7,41-50,160000.0
+west coast (california & pacific northwest),Industrial Biotech,Start-up,1-50,PhD,4,41-50,137500.0
+"dc metro area (dc, va, md, de)",Industrial Biotech,Public,200-1000,BS,4,31-40,133250.0
+"pharma central (ny, nj, pa)",Big Pharmaceuticals,Public,5000+,PhD,3,41-50,218200.0
+west coast (california & pacific northwest),Industrial Biotech,Public,50-200,PhD,3,31-40,149000.0
+"pharma central (ny, nj, pa)",Industrial Biotech,Private,1-50,PhD,1,41-50,90000.0
+"new england (ma, ct, ri, nh, vt, me)",Big Pharmaceuticals,Public,5000+,BS,2,31-40,80500.0
+"new england (ma, ct, ri, nh, vt, me)",Industrial Biotech,Start-up,50-200,PhD,3,31-40,172200.0
+"pharma central (ny, nj, pa)",Big Pharmaceuticals,Public,1000-5000,PhD,17,41-50,350500.0
+"new england (ma, ct, ri, nh, vt, me)",Industrial Biotech,Start-up,50-200,PhD,5,31-40,148500.0
+"new england (ma, ct, ri, nh, vt, me)",Industrial Biotech,Start-up,50-200,MS,14,41-50,279680.0
+"pharma central (ny, nj, pa)",Big Pharmaceuticals,Public,5000+,BS,6,31-40,97300.0
+"new england (ma, ct, ri, nh, vt, me)",Big Pharmaceuticals,Public,5000+,MS,15,51-60,212800.0
+"dc metro area (dc, va, md, de)",Big Pharmaceuticals,Public,5000+,MS,15,<30,376000.0
+"new england (ma, ct, ri, nh, vt, me)",Big Pharmaceuticals,Private,5000+,MS,3,41-50,120000.0
+"carolinas & southeast (from nc to ar, south fl and la)",Chemical,Private,5000+,BS,4,41-50,62700.0
+west coast (california & pacific northwest),Big Pharmaceuticals,Private,200-1000,BS,8,31-40,246650.0
+"pharma central (ny, nj, pa)",Big Pharmaceuticals,Public,5000+,PhD,18,41-50,692000.0
+"new england (ma, ct, ri, nh, vt, me)",Academia/Research/Institution,Academia/College/Universities,5000+,PhD,2,31-40,121000.0
+west coast (california & pacific northwest),Industrial Biotech,Public,200-1000,BS,9,41-50,206800.0
+west coast (california & pacific northwest),Big Pharmaceuticals,Subsidiary,1-50,BS,14,41-50,304000.0
+"new england (ma, ct, ri, nh, vt, me)",Big Pharmaceuticals,Public,5000+,PhD,18,51-60,750000.0
+"pharma central (ny, nj, pa)",Big Pharmaceuticals,Public,5000+,BS,2,41-50,89850.0
+west coast (california & pacific northwest),Big Pharmaceuticals,Public,5000+,BS,9,31-40,153000.0
+"pharma central (ny, nj, pa)",Big Pharmaceuticals,Public,5000+,PhD,2,31-40,130000.0
+west coast (california & pacific northwest),Big Pharmaceuticals,Public,5000+,BS,1,41-50,93300.0
+west coast (california & pacific northwest),Big Pharmaceuticals,Public,5000+,BS,7,31-40,135600.0
+"pharma central (ny, nj, pa)",Big Pharmaceuticals,Public,5000+,PhD,24,41-50,705000.0
+west coast (california & pacific northwest),Academia/Research/Institution,Private,5000+,PhD,10,31-40,79000.0
+"midwest (from oh to ks, north to nd)",Big Pharmaceuticals,Public,5000+,BS,7,31-40,78000.0
+"new england (ma, ct, ri, nh, vt, me)",Big Pharmaceuticals,Private,5000+,PhD,32,41-50,577000.0
+"new england (ma, ct, ri, nh, vt, me)",Big Pharmaceuticals,Public,200-1000,BS,14,51-60,245000.0
+"dc metro area (dc, va, md, de)",Big Pharmaceuticals,Public,5000+,PhD,15,41-50,167030.5
+west coast (california & pacific northwest),Big Pharmaceuticals,Private,5000+,BS,4,<30,115000.0
+"midwest (from oh to ks, north to nd)",Big Pharmaceuticals,Public,200-1000,PhD,10,31-40,343250.0
+west coast (california & pacific northwest),Medical/Health Devices,Start-up,50-200,Other,6,41-50,91069.0
+"carolinas & southeast (from nc to ar, south fl and la)",Agriculture,Start-up,1-50,PhD,3,41-50,80000.0
