@@ -16,6 +16,7 @@ s3fs = "*"
 
 [dev-packages]
 setuptools = "*"
+pylint = "*"
 
 [requires]
 python_version = "3.12"
