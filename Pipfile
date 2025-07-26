@@ -11,6 +11,8 @@ click = "*"
 mlflow = "*"
 hyperopt = "*"
 pytest = "*"
+fsspec = "*"
+s3fs = "*"
 
 [dev-packages]
 setuptools = "*"
