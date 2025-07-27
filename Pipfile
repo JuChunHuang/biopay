@@ -13,6 +13,7 @@ hyperopt = "*"
 pytest = "*"
 fsspec = "*"
 s3fs = "*"
+setuptools = "*"
 
 [dev-packages]
 setuptools = "*"

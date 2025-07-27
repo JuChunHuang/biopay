@@ -4,8 +4,6 @@ from unittest import mock
 import numpy as np
 from click.testing import CliRunner
 
-from src.train.hpo import run_optimization
-
 
 @pytest.fixture
 def fake_data():
@@ -18,6 +16,7 @@ def fake_data():
 @mock.patch("src.train.hpo.utils")
 @mock.patch("src.train.hpo.fmin")
 def test_run_optimization(mock_fmin, mock_utils, mock_mlflow, fake_data, tmp_path):
+    from src.train.hpo import run_optimization
     mock_utils.load_pickle.side_effect = [fake_data, fake_data]
     mock_fmin.return_value = {"loss": 0.1}
 
