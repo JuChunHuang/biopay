@@ -33,6 +33,7 @@ def make_prediction(data_path: str, model_path: str, output_path: str):
     y_pred = model.predict(X)
     y_pred = pd.DataFrame(y_pred, columns=["prediction"], index=test_df.index)
 
+    os.makedirs(output_path, exist_ok=True)
     if s3_endpoint_url:
         options = {
             "client_kwargs": {
