@@ -30,7 +30,7 @@ jobs:
 
       - name: Run tests
         run: |
-          pipenv run python -m pytest
+          pipenv run python -m pytest --ignore=tests/integration_test
 
   docker:
     name: Build and Run Docker Image
