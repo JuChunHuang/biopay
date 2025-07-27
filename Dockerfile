@@ -10,6 +10,8 @@ COPY Pipfile Pipfile.lock ./
 
 RUN pipenv install --system --deploy
 
+RUN mkdir -p /app/data/outputs
+
 ENV PYTHONPATH="/app"
 
 ENTRYPOINT [ "python", "./src/predict/predict.py" ]
