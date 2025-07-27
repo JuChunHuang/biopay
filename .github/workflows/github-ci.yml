@@ -45,7 +45,7 @@ jobs:
         uses: docker/setup-buildx-action@v3
 
       - name: Build Docker image
-        run: docker build -t churn-predictor .
+        run: docker build -t biopay .
 
       - name: Run Docker container
-        run: docker run --rm biopay-image
+        run: docker run --rm biopay
