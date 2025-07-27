@@ -1,5 +1,5 @@
 import os
-import utils
+from . import utils
 import click
 import mlflow
 import numpy as np

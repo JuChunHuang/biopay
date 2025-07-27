@@ -1,5 +1,5 @@
 import pandas as pd
-import utils
+from . import utils
 import os
 import click
 import joblib
