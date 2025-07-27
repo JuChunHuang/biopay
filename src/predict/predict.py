@@ -1,7 +1,7 @@
 import click
 import pandas as pd
 import os
-from . import utils
+from src.predict import utils
 import joblib
 
 

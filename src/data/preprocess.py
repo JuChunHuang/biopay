@@ -1,5 +1,5 @@
 import pandas as pd
-from . import utils
+from src.data import utils
 import os
 import click
 import joblib

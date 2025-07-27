@@ -1,5 +1,5 @@
 import os
-from . import utils
+from src.train import utils
 import click
 import mlflow
 mlflow.set_tracking_uri("sqlite:///mlflow.db")

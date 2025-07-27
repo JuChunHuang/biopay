@@ -31,6 +31,9 @@ jobs:
       - name: Run tests
         run: |
           pipenv run python -m pytest --ignore=tests/integration_test
+        working-directory: ./
+        env:
+          PYTHONPATH: ${{ github.workspace }}
 
   docker:
     name: Build and Run Docker Image
