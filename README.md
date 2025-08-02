@@ -13,6 +13,7 @@ This project is built using Python and leverages the [2024 Biotech Salary and Co
 - **Localstack** for cloud service
 - **Pylint** for code formatting
 - **GitHub Action** for CI/CD pipeline, including unit tests and integration test
+- **Pre-commit hook**
 
 ## Project Structure
 

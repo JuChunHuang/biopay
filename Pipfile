@@ -14,7 +14,6 @@ pytest = "*"
 fsspec = "*"
 s3fs = "*"
 setuptools = "*"
-pre-commit = "*"
 
 [dev-packages]
 setuptools = "*"
